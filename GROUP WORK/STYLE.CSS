@@ -1,0 +1,115 @@
+*
+{
+padding:0;
+margin: 0;
+box-sizing: border-box;}
+
+
+body
+{
+background-image: url(IMG/aa.jpg);
+background-position:center ;
+background-size: auto;
+font-family: sans-serif ;
+}
+
+.menu-bar
+{
+background: #24c01086;
+text-align: left;
+}
+
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+
+}
+
+.menu-bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+
+.menu-bar ul li a
+
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: #dacc08f3;
+border-radius: 3px;
+}
+ 
+.sub-menu-1
+{
+display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+background-color: #0eaf4c;
+margin-top: 15px;
+margin-left: -15px;
+}
+body h1
+{
+color: #ffffff;
+font-size: xXX-large;
+font-style: initial;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+   border-bottom: 1px dotted #fff;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li::last-child
+{
+border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color: #00d9ff;
+}
+
+
+
+
+
+/* newsletter */
+#newsletter{
+    padding: 160px;
+    color:#080bc5;
+    background: #6dd9e7e1;
+    border-image-source: url(www.jpg);
+    font-size: xx-large;
+}
+
+footer{
+    padding: 60px;
+    margin-top: 20px;
+    color: #c5f006;
+    background-color: #03409ccc;
+    text-align: center;
+    font-size: large;
+
+}
+
